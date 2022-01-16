@@ -9,6 +9,15 @@
     list-style: none;
     font-family: 'Darker Grotesque', sans-serif;
 }
+body {
+    /* Provisório, só para não queimar meus olhos com esse fundo branco */
+        background-color: rgb(0, 0, 0)
+}
+h1 {
+    padding-top: 20%;
+    text-align: center;
+    color: white;
+}
 
 /* MENU */
 #Nav {
@@ -17,7 +26,7 @@
 
 /* Elementos do MENU */ 
 #menuItens li{
-    margin-right: 4%;
+    margin: 0 2%;
     font-size: 25px;
     font-weight: 400;
 }

@@ -1,0 +1,29 @@
+/* Efeito MENU */
+#menuItens li a{
+    position: relative;
+    padding: 0 10px;
+    opacity: 0.7;
+}
+
+#menuItens li a::after{
+    content: "";
+    position: absolute;
+    background-color: #5b16eb;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+
+#menuItens li a:hover{
+    opacity: 1.0;
+    transition: 0.4s;
+
+}
+
+#menuItens li a:hover::after{
+    width: 100%;
+}
+
+
