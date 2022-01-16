@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Usar fonte: font-family: 'Darker Grotesque', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+/* MENU */
+#Nav {
+    padding: 20px 0px;
+}
+
+/* Elementos do MENU */ 
+#menuItens li{
+    margin-right: 4%;
+    font-size: 25px;
+    font-weight: 400;
+}
