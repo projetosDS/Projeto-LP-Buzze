@@ -27,3 +27,27 @@
 }
 
 
+
+/* Efeito de digitação SECTION 1 */
+
+.digitando {
+    animation: Cursor 500ms steps(25) infinite normal, escrevendo 3s steps(25) 1s normal both;
+}
+
+@keyframes escrevendo {
+    from {
+        width: 0;
+    }
+    
+    to {
+        width: 5em;
+    }
+}
+@keyframes Cursor{
+    from {
+        border-right-color: rgb(255, 255, 255)
+    }
+    to {
+        border-right-color:  transparent;
+    }
+}
