@@ -8,12 +8,13 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Darker Grotesque', sans-serif;
+    color: white;
 }
 body {
     /* Provisório, só para não queimar meus olhos com esse fundo branco */
         background-color: rgb(0, 0, 0)
 }
-h1 {
+#texto {
     padding-top: 20%;
     text-align: center;
     color: white;
@@ -32,10 +33,34 @@ h1 {
 }
 
 /* Testandp protótipo no site */
-#testeApp {
+
+/* Section 1 */
+.sec1{
+    height: 50vh;
+    background-image: url(/Assets/img/Buzu\ por\ dentro.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+
+.titulo{
+    position: absolute;
+    top: 50%;      
+    left: 50%;                  
+    transform: translate(-50%, -50%);
+    font-size: 130px;
+    font-weight: 600;
+    letter-spacing: 20px;
+    color: rgb(255, 255, 255);
     
 }
 
-.sec-01 {
-    
-}
+.subtitulo{
+    word-wrap: none;
+    padding-top: 125px;
+    padding-right: 200px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: 200; }

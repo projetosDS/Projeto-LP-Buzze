@@ -1,12 +1,23 @@
 /* Menu aberto */
 @media screen  and (max-width: 990px){
+    /* Menu */
     #menuItens li{
         display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 25px;
     }
+    
+    /* Section 1 */
+    .sec1{
+        background-image: url(/Assets/img/Buzu\ por\ dentro.png);
+        background-size: 100%;
+        background-size:cover;
+        background-position:center;
+        
 
+    }
+    
     
 
 }
