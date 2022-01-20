@@ -7,7 +7,7 @@
         align-items: center;
         padding-bottom: 25px;
     }
-    
+
     /* Section 1 */
     .sec1{
         background-image: url(/Assets/img/Buzu\ por\ dentro.png);
@@ -16,6 +16,26 @@
         background-position:center;
         
 
+    }
+
+    .titulo{
+        font-size: 100px;
+        font-weight: 600;
+        letter-spacing: 20px;
+        color: rgb(255, 255, 255);
+        
+    }
+    .container1 {
+        padding-top: 140px;
+        padding-right: 150px;
+    
+    
+    }
+    .subtitulo{
+        word-wrap: none;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        font-weight: 200; 
     }
     
     
